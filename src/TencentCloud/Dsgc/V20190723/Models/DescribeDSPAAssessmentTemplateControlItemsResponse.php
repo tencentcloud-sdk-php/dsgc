@@ -22,8 +22,8 @@ use TencentCloud\Common\AbstractModel;
  *
  * @method integer getTotalCount() 获取符合条件的评估项数目
  * @method void setTotalCount(integer $TotalCount) 设置符合条件的评估项数目
- * @method array getItems() 获取模版关联的评估项列表
- * @method void setItems(array $Items) 设置模版关联的评估项列表
+ * @method array getItems() 获取模板关联的评估项列表
+ * @method void setItems(array $Items) 设置模板关联的评估项列表
  * @method string getRequestId() 获取唯一请求 ID，每次请求都会返回。定位问题时需要提供该次请求的 RequestId。
  * @method void setRequestId(string $RequestId) 设置唯一请求 ID，每次请求都会返回。定位问题时需要提供该次请求的 RequestId。
  */
@@ -35,7 +35,7 @@ class DescribeDSPAAssessmentTemplateControlItemsResponse extends AbstractModel
     public $TotalCount;
 
     /**
-     * @var array 模版关联的评估项列表
+     * @var array 模板关联的评估项列表
      */
     public $Items;
 
@@ -46,7 +46,7 @@ class DescribeDSPAAssessmentTemplateControlItemsResponse extends AbstractModel
 
     /**
      * @param integer $TotalCount 符合条件的评估项数目
-     * @param array $Items 模版关联的评估项列表
+     * @param array $Items 模板关联的评估项列表
      * @param string $RequestId 唯一请求 ID，每次请求都会返回。定位问题时需要提供该次请求的 RequestId。
      */
     function __construct()
